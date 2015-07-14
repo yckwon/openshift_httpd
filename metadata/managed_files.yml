@@ -1,0 +1,16 @@
+---
+locked_files:
+- env/
+- env/*
+- etc/
+- etc/*
+- conf.d/
+- conf.d/*
+- bin/
+- bin/*
+- mock_cart_locked_file
+- ~/.mock_gear_locked_file
+- ~/app-root/data/mock_gear_data_locked_file
+- ~/invalid_mock_locked_file
+processed_templates:
+- '**/*.erb'

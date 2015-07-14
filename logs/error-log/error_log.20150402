@@ -1,0 +1,19 @@
+[Thu Apr 02 20:53:55 2015] [notice] SELinux policy enabled; httpd running as context unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023
+[Thu Apr 02 20:53:55 2015] [notice] suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Thu Apr 02 20:53:55 2015] [notice] Digest: generating secret for digest authentication ...
+[Thu Apr 02 20:53:55 2015] [notice] Digest: done
+[Thu Apr 02 20:53:55 2015] [notice] Apache/2.2.26 (Unix) DAV/2 mod_jk/1.2.40 mod_ssl/2.2.26 OpenSSL/1.0.1e-fips configured -- resuming normal operations
+[Thu Apr 02 20:57:55 2015] [notice] SELinux policy enabled; httpd running as context unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023
+[Thu Apr 02 20:57:55 2015] [notice] suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Thu Apr 02 20:57:55 2015] [warn] RSA server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Thu Apr 02 20:57:55 2015] [notice] Digest: generating secret for digest authentication ...
+[Thu Apr 02 20:57:55 2015] [notice] Digest: done
+[Thu Apr 02 20:57:56 2015] [warn] RSA server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Thu Apr 02 20:57:56 2015] [notice] Apache/2.2.26 (Unix) DAV/2 mod_jk/1.2.40 mod_ssl/2.2.26 OpenSSL/1.0.1e-fips configured -- resuming normal operations
+[Thu Apr 02 21:06:36 2015] [notice] SELinux policy enabled; httpd running as context unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023
+[Thu Apr 02 21:06:36 2015] [notice] suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Thu Apr 02 21:06:36 2015] [warn] RSA server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Thu Apr 02 21:06:36 2015] [notice] Digest: generating secret for digest authentication ...
+[Thu Apr 02 21:06:36 2015] [notice] Digest: done
+[Thu Apr 02 21:06:36 2015] [warn] RSA server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Thu Apr 02 21:06:36 2015] [notice] Apache/2.2.26 (Unix) DAV/2 mod_jk/1.2.40 mod_ssl/2.2.26 OpenSSL/1.0.1e-fips configured -- resuming normal operations
