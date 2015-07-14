@@ -1,34 +1,48 @@
+---
 name: httpd
 Cartridge-Short-Name: HTTPD   
 Display-Name: EWS 2.1 HTTPD Cartridge
 Description: "A httpd cartridge for development use only."
 Version: '0.1'
 License: "None"
+License-Url:
 Vendor: RockPlace
-Cartridge-Version: 0.0.1
+Cartridge-Version: 0.0.13
+Compatible-Versions:
+- 0.0.10
+- 0.0.11
+- 0.0.12
 Cartridge-Vendor: customcarts
 Categories:
-  - service
-  - web_framework
+- web_framework
+- experimental
+Website:
+Help-Topics:
 Provides:
   - httpd
-Cart-Data:
-  - Key: OPENSHIFT_HTTPD_EXAMPLE
-    Type: environment
-    Description: "An example environment variable using ERB processing"
-Group-Overrides:
-  - components:
-    - httpd
+Publishes:
 Subscribes:
-  set-db-connection-info:
-    Type: "NET_TCP:db:connection-info"
+  set-env:
+    Type: ENV:*
     Required: false
+Scaling:
+  Min: 1
+  Max: 1
+Group-Overrides:
+- components:
+  - web-proxy
 Endpoints:
   - Private-IP-Name:   IP
     Private-Port-Name: PORT
     Private-Port:      8080
     Public-Port-Name:  PROXY_PORT
-    Mappings:
-      - Frontend:      ""
-        Backend:       ""
-        Options:       { websocket: false }
+Mappings:
+  - Frontend: ''
+    Backend: ''
+    Options:
+      websocket: true
+  - Frontend: "/health"
+    Backend: ''
+    Options:
+      health: true
+
